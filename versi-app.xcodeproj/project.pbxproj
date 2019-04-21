@@ -14,6 +14,8 @@
 		F626AEEC226D2B94008BB571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F626AEEB226D2B94008BB571 /* Assets.xcassets */; };
 		F626AEEF226D2B94008BB571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F626AEED226D2B94008BB571 /* LaunchScreen.storyboard */; };
 		F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEF9226D2EDD008BB571 /* SearchVC.swift */; };
+		F626AEFC226D36E5008BB571 /* RoundedBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */; };
+		F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F626AEEE226D2B94008BB571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F626AEF0226D2B94008BB571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F626AEF9226D2EDD008BB571 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderButton.swift; sourceTree = "<group>"; };
+		F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 		F626AEF7226D2C20008BB571 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */,
+				F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */,
+				F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */,
 				F626AEE7226D2B93008BB571 /* TrendingFeedVC.swift in Sources */,
 				F626AEE5226D2B93008BB571 /* AppDelegate.swift in Sources */,
+				F626AEFC226D36E5008BB571 /* RoundedBorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
