@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		BEDDCAD293E9A2F6B183081F /* Pods_versi_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A865AD835CD1097F65E70C51 /* Pods_versi_app.framework */; };
 		F626AEE5226D2B93008BB571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEE4226D2B93008BB571 /* AppDelegate.swift */; };
-		F626AEE7226D2B93008BB571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEE6226D2B93008BB571 /* ViewController.swift */; };
+		F626AEE7226D2B93008BB571 /* TrendingFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEE6226D2B93008BB571 /* TrendingFeedVC.swift */; };
 		F626AEEA226D2B93008BB571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F626AEE8226D2B93008BB571 /* Main.storyboard */; };
 		F626AEEC226D2B94008BB571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F626AEEB226D2B94008BB571 /* Assets.xcassets */; };
 		F626AEEF226D2B94008BB571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F626AEED226D2B94008BB571 /* LaunchScreen.storyboard */; };
+		F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEF9226D2EDD008BB571 /* SearchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,12 @@
 		BED915EA68CFBFBB2E11DBE7 /* Pods-versi-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-versi-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-versi-app/Pods-versi-app.debug.xcconfig"; sourceTree = "<group>"; };
 		F626AEE1226D2B93008BB571 /* versi-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "versi-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F626AEE4226D2B93008BB571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F626AEE6226D2B93008BB571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F626AEE6226D2B93008BB571 /* TrendingFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingFeedVC.swift; sourceTree = "<group>"; };
 		F626AEE9226D2B93008BB571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F626AEEB226D2B94008BB571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F626AEEE226D2B94008BB571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F626AEF0226D2B94008BB571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F626AEF9226D2EDD008BB571 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +95,8 @@
 		F626AEF6226D2C06008BB571 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F626AEE6226D2B93008BB571 /* ViewController.swift */,
+				F626AEE6226D2B93008BB571 /* TrendingFeedVC.swift */,
+				F626AEF9226D2EDD008BB571 /* SearchVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -232,7 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F626AEE7226D2B93008BB571 /* ViewController.swift in Sources */,
+				F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */,
+				F626AEE7226D2B93008BB571 /* TrendingFeedVC.swift in Sources */,
 				F626AEE5226D2B93008BB571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
