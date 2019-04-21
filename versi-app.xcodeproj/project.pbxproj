@@ -54,14 +54,38 @@
 		F626AEE3226D2B93008BB571 /* versi-app */ = {
 			isa = PBXGroup;
 			children = (
+				F626AEF8226D2C28008BB571 /* Model */,
+				F626AEF7226D2C20008BB571 /* View */,
+				F626AEF6226D2C06008BB571 /* Controller */,
 				F626AEE4226D2B93008BB571 /* AppDelegate.swift */,
-				F626AEE6226D2B93008BB571 /* ViewController.swift */,
 				F626AEE8226D2B93008BB571 /* Main.storyboard */,
 				F626AEEB226D2B94008BB571 /* Assets.xcassets */,
 				F626AEED226D2B94008BB571 /* LaunchScreen.storyboard */,
 				F626AEF0226D2B94008BB571 /* Info.plist */,
 			);
 			path = "versi-app";
+			sourceTree = "<group>";
+		};
+		F626AEF6226D2C06008BB571 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F626AEE6226D2B93008BB571 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F626AEF7226D2C20008BB571 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F626AEF8226D2C28008BB571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
