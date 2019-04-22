@@ -17,6 +17,7 @@
 		F626AEFC226D36E5008BB571 /* RoundedBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */; };
 		F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */; };
 		F626AF00226D3C65008BB571 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFF226D3C65008BB571 /* Repo.swift */; };
+		F626AF02226D3E4C008BB571 /* TrendingRepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF01226D3E4C008BB571 /* TrendingRepoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderButton.swift; sourceTree = "<group>"; };
 		F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderTextField.swift; sourceTree = "<group>"; };
 		F626AEFF226D3C65008BB571 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		F626AF01226D3E4C008BB571 /* TrendingRepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */,
 				F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */,
+				F626AF01226D3E4C008BB571 /* TrendingRepoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */,
+				F626AF02226D3E4C008BB571 /* TrendingRepoCell.swift in Sources */,
 				F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */,
 				F626AEE7226D2B93008BB571 /* TrendingFeedVC.swift in Sources */,
 				F626AF00226D3C65008BB571 /* Repo.swift in Sources */,
