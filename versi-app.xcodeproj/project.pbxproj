@@ -16,6 +16,7 @@
 		F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEF9226D2EDD008BB571 /* SearchVC.swift */; };
 		F626AEFC226D36E5008BB571 /* RoundedBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */; };
 		F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */; };
+		F626AF00226D3C65008BB571 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFF226D3C65008BB571 /* Repo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F626AEF9226D2EDD008BB571 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderButton.swift; sourceTree = "<group>"; };
 		F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderTextField.swift; sourceTree = "<group>"; };
+		F626AEFF226D3C65008BB571 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		F626AEF8226D2C28008BB571 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F626AEFF226D3C65008BB571 /* Repo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */,
 				F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */,
 				F626AEE7226D2B93008BB571 /* TrendingFeedVC.swift in Sources */,
+				F626AF00226D3C65008BB571 /* Repo.swift in Sources */,
 				F626AEE5226D2B93008BB571 /* AppDelegate.swift in Sources */,
 				F626AEFC226D36E5008BB571 /* RoundedBorderButton.swift in Sources */,
 			);
