@@ -18,6 +18,8 @@
 		F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */; };
 		F626AF00226D3C65008BB571 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AEFF226D3C65008BB571 /* Repo.swift */; };
 		F626AF02226D3E4C008BB571 /* TrendingRepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF01226D3E4C008BB571 /* TrendingRepoCell.swift */; };
+		F626AF06226D45C8008BB571 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF05226D45C8008BB571 /* Constants.swift */; };
+		F626AF08226D46D7008BB571 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF07226D46D7008BB571 /* DownloadService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBorderTextField.swift; sourceTree = "<group>"; };
 		F626AEFF226D3C65008BB571 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		F626AF01226D3E4C008BB571 /* TrendingRepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepoCell.swift; sourceTree = "<group>"; };
+		F626AF05226D45C8008BB571 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F626AF07226D46D7008BB571 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 		F626AEE3226D2B93008BB571 /* versi-app */ = {
 			isa = PBXGroup;
 			children = (
+				F626AF04226D45A3008BB571 /* Utilities */,
+				F626AF03226D4597008BB571 /* Services */,
 				F626AEF8226D2C28008BB571 /* Model */,
 				F626AEF7226D2C20008BB571 /* View */,
 				F626AEF6226D2C06008BB571 /* Controller */,
@@ -125,6 +131,22 @@
 				F626AEFF226D3C65008BB571 /* Repo.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F626AF03226D4597008BB571 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F626AF07226D46D7008BB571 /* DownloadService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F626AF04226D45A3008BB571 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F626AF05226D45C8008BB571 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +276,8 @@
 				F626AF00226D3C65008BB571 /* Repo.swift in Sources */,
 				F626AEE5226D2B93008BB571 /* AppDelegate.swift in Sources */,
 				F626AEFC226D36E5008BB571 /* RoundedBorderButton.swift in Sources */,
+				F626AF06226D45C8008BB571 /* Constants.swift in Sources */,
+				F626AF08226D46D7008BB571 /* DownloadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
