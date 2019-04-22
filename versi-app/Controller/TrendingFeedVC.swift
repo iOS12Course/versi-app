@@ -16,8 +16,8 @@ class TrendingFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.delegate = self
         tableView.dataSource = self
         tableView.reloadData()
-        DownloadService.instance.downloadTrendingRepos { (repoArray) in
-            debugPrint(repoArray[0].name)
+        DownloadService.instance.downloadTrendingRepos { (reposArray) in
+            debugPrint(reposArray[0].image.size)
         }
     }
     
