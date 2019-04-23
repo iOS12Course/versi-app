@@ -17,8 +17,11 @@ class TrendingFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.dataSource = self
         tableView.reloadData()
         DownloadService.instance.downloadTrendingRepos { (reposArray) in
-            debugPrint(reposArray[0].image.size)
+            debugPrint(reposArray[0].name)
         }
+//        DownloadService.instance.downloadTrendingReposDictArray { (dictArray) in
+//            debugPrint(dictArray)
+//        }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
