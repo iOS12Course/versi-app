@@ -20,6 +20,7 @@
 		F626AF02226D3E4C008BB571 /* TrendingRepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF01226D3E4C008BB571 /* TrendingRepoCell.swift */; };
 		F626AF06226D45C8008BB571 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF05226D45C8008BB571 /* Constants.swift */; };
 		F626AF08226D46D7008BB571 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF07226D46D7008BB571 /* DownloadService.swift */; };
+		F626AF0A226FDCA2008BB571 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF09226FDCA2008BB571 /* SearchCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F626AF01226D3E4C008BB571 /* TrendingRepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepoCell.swift; sourceTree = "<group>"; };
 		F626AF05226D45C8008BB571 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F626AF07226D46D7008BB571 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		F626AF09226FDCA2008BB571 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				F626AEFB226D36E5008BB571 /* RoundedBorderButton.swift */,
 				F626AEFD226D37F3008BB571 /* RoundedBorderTextField.swift */,
 				F626AF01226D3E4C008BB571 /* TrendingRepoCell.swift */,
+				F626AF09226FDCA2008BB571 /* SearchCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */,
+				F626AF0A226FDCA2008BB571 /* SearchCell.swift in Sources */,
 				F626AF02226D3E4C008BB571 /* TrendingRepoCell.swift in Sources */,
 				F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */,
 				F626AEE7226D2B93008BB571 /* TrendingFeedVC.swift in Sources */,
