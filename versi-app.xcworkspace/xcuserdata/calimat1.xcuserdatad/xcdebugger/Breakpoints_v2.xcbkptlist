@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "versi-app/Controller/SearchVC.swift"
-            timestampString = "577763023.282755"
+            timestampString = "577763655.126889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "bindElements()"
             landmarkType = "7">
          </BreakpointContent>

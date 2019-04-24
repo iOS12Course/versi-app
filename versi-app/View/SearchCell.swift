@@ -16,7 +16,7 @@ class SearchCell: UITableViewCell {
     @IBOutlet weak var languageLbl: UILabel!
     @IBOutlet weak var backView: UIView!
     
-    private var repoUrl: String?
+    public private (set) var repoUrl: String?
     
     func configureCell(repo:Repo) {
         repoNameLbl.text = repo.name
