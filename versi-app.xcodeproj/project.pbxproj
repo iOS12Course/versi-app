@@ -21,6 +21,7 @@
 		F626AF06226D45C8008BB571 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF05226D45C8008BB571 /* Constants.swift */; };
 		F626AF08226D46D7008BB571 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF07226D46D7008BB571 /* DownloadService.swift */; };
 		F626AF0A226FDCA2008BB571 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF09226FDCA2008BB571 /* SearchCell.swift */; };
+		F626AF0D226FFA6C008BB571 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626AF0C226FFA6C008BB571 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F626AF05226D45C8008BB571 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F626AF07226D46D7008BB571 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 		F626AF09226FDCA2008BB571 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		F626AF0C226FFA6C008BB571 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		F626AEE3226D2B93008BB571 /* versi-app */ = {
 			isa = PBXGroup;
 			children = (
+				F626AF0B226FFA5B008BB571 /* Extensions */,
 				F626AF04226D45A3008BB571 /* Utilities */,
 				F626AF03226D4597008BB571 /* Services */,
 				F626AEF8226D2C28008BB571 /* Model */,
@@ -150,6 +153,14 @@
 				F626AF05226D45C8008BB571 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F626AF0B226FFA5B008BB571 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F626AF0C226FFA6C008BB571 /* UIViewControllerExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F626AEFA226D2EDD008BB571 /* SearchVC.swift in Sources */,
+				F626AF0D226FFA6C008BB571 /* UIViewControllerExt.swift in Sources */,
 				F626AF0A226FDCA2008BB571 /* SearchCell.swift in Sources */,
 				F626AF02226D3E4C008BB571 /* TrendingRepoCell.swift in Sources */,
 				F626AEFE226D37F3008BB571 /* RoundedBorderTextField.swift in Sources */,
